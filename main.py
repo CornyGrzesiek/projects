@@ -1,5 +1,4 @@
-import elo
+import palindrome
 
-tab = {1, 2, 3, 4, 5, 6}
+print(palindrome.isPalindrome(333))
 
-elo.elo()
