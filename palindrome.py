@@ -4,7 +4,7 @@
 def isPalindrome(x: int) -> bool:
     tmp = x
     reversedx = 0
-    if (x < 0):
+    if x < 0:
         return False
     while x != 0:
         digit = x % 10
