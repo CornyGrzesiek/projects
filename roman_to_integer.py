@@ -2,7 +2,7 @@
 
 def roman_to_int(s: str) -> int:
     value = 0
-    roman_dict = {'M': 1000, 'D': 500, 'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1}
+    roman_dict = {'M': 1000, 'D': 500, 'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1, 'P': 12}
     prev_number = 0
     for char in s:
         if char in roman_dict:
