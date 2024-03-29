@@ -20,4 +20,4 @@ def is_valid(s):
                     (char == ']' and stack[-1] != '['):
                 return False
             stack.pop()
-    return not stack
+    return True
